@@ -1,0 +1,20 @@
+{
+	"name": "encdecwebsite",
+	"version": "1.0.0",
+	"description": "Encryption and Decryption website",
+	"author": "OrmazdFR",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"express": "^4.16.1",
+		"crypto-js": "4.1.1",
+		"sha2": "1.0.2",
+		"js-sha3": "0.8.0",
+		"ripemd160": "2.0.2",
+		"node-rsa": "1.1.1",
+		"aes-js": "3.1.2",
+		"javascript-blowfish": "1.0.4"
+	}
+}
